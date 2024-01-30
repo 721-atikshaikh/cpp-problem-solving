@@ -13,10 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Sum Of Digits">
+      <UniqueIdentifier>{5d27da4e-112e-4e32-9d25-b6d0d7f8a360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Add Digits">
+      <UniqueIdentifier>{e2ae98c5-be3d-47d0-a3b0-d56cd362a886}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp-problem-solving.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sumOfDigits.cpp">
+      <Filter>Sum Of Digits</Filter>
+    </ClCompile>
+    <ClCompile Include="addDigits.cpp">
+      <Filter>Add Digits</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
