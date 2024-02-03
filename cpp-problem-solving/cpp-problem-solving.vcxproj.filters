@@ -13,11 +13,20 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Sum Of Digits">
-      <UniqueIdentifier>{5d27da4e-112e-4e32-9d25-b6d0d7f8a360}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Add Digits">
       <UniqueIdentifier>{e2ae98c5-be3d-47d0-a3b0-d56cd362a886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodeForces">
+      <UniqueIdentifier>{260265a1-ac64-45f7-be4a-925bb8261725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeetCode">
+      <UniqueIdentifier>{87578b21-d731-4849-abef-6fdc69388c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeetCode\Sum Of Digits">
+      <UniqueIdentifier>{5d27da4e-112e-4e32-9d25-b6d0d7f8a360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeetCode\Ugly Number">
+      <UniqueIdentifier>{9c5ac453-50fd-4457-a302-0432fc4c4b8c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -25,10 +34,16 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sumOfDigits.cpp">
-      <Filter>Sum Of Digits</Filter>
+      <Filter>LeetCode\Sum Of Digits</Filter>
     </ClCompile>
     <ClCompile Include="addDigits.cpp">
       <Filter>Add Digits</Filter>
+    </ClCompile>
+    <ClCompile Include="1807A.cpp">
+      <Filter>CodeForces</Filter>
+    </ClCompile>
+    <ClCompile Include="uglyNumber.cpp">
+      <Filter>LeetCode\Ugly Number</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
